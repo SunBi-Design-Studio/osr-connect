@@ -7690,9 +7690,9 @@ body {
 
 /*---------------------------------------------*/
 .l2-txt1 {
-  font-size: 40px;
+  font-size: 34px;
   line-height: 1;
-  color: #333;
+  color: #989696;
 }
 
 /*==================================================================
@@ -8181,5 +8181,18 @@ b {
   }
   .wrap-input100 {
     width: 270px;
+  }
+}
+
+.button--row {
+  display: flex;
+}
+
+@media only screen and (max-width: 616px) {
+  .button--row {
+    display: block;
+  }
+  .button--row a:last-child {
+    margin-top: 1em;
   }
 }
