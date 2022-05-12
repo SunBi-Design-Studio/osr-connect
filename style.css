@@ -235,6 +235,27 @@ footer .row {
     top: -540px;
   } */
 }
+@keyframes move-res {
+  0% {
+    top: 0px;
+  }
+  10% {
+    top: 0px;
+  }
+  40% {
+    top: -55px;
+  }
+  70% {
+    top: -110px;
+  }
+  100% {
+    top: -160px;
+  }
+
+  /* 100% {
+    top: -540px;
+  } */
+}
 
 .screen aside:first-child {
   min-width: 706px;
@@ -322,6 +343,7 @@ footer p span .sunbi {
   }
   .box {
     font-size: 36px;
+    animation-name: move-res;
   }
   .box-wrrapper {
     height: 60px;
@@ -356,27 +378,5 @@ footer p span .sunbi {
 
   .screen aside {
     width: 100%;
-  }
-
-  @keyframes move {
-    0% {
-      top: 0px;
-    }
-    10% {
-      top: 0px;
-    }
-    40% {
-      top: -60px;
-    }
-    70% {
-      top: -120px;
-    }
-    100% {
-      top: -180px;
-    }
-
-    /* 100% {
-      top: -540px;
-    } */
   }
 }
